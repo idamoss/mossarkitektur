@@ -7,19 +7,31 @@
   <title>Moss</title>
 </head>
 
-<body>
+<body id="top">
   <header class="site-header">
     <h1>moss</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="#top">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
-    <p>Content…</p>
+    <section id="about" class="section">
+      <div data-include="about.html"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div data-include="projects.html"></div>
+    </section>
+
+    <section id="contact" class="section">
+      <div data-include="contact.html"></div>
+    </section>
   </main>
+
+  <script src="main.js"></script>
 </body>
 </html>

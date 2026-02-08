@@ -2,6 +2,10 @@
     --side-margin: clamp(12px, 4vw, 10px); 
   }
 
+html{
+    scroll-behavior: smooth;
+}
+.section{scroll-margin-top: 90px;}
   .site-header {
     display: flex;
     justify-content: space-between;
