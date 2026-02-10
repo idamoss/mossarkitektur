@@ -4,25 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="about.css">
   <title>Moss</title>
 </head>
 
 <body id="top">
   <header class="site-header">
-    <h1>moss</h1>
-    <nav>
-      <a href="#top">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="header-top">
+        <h1>moss</h1>  
+        <nav>
+        <a href="#top">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        </nav>
+    </div>
+    <div class="hero">
+        <p class="hero-kicker">Vi kan hjälpa dig med</p>
+
+        <h1 class="stretch-title">
+        <span>Design</span>
+
+        <span class="sr-only">För</span>
+        <span aria-hidden="true" class="stretch-word">
+            <span>F</span>
+            <span class="stretch-o"></span>
+            <span>r</span>
+        </span>
+
+        <span>Developers</span>
+        </h1>
+    </div>
   </header>
 
   <main>
     <section id="projects" class="section">
         <div data-include="projects.html"></div>
       </section>
-      
+
     <section id="about" class="section">
       <div data-include="about.html"></div>
     </section>
@@ -33,5 +54,6 @@
   </main>
 
   <script src="main.js"></script>
+  
 </body>
 </html>

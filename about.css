@@ -1,0 +1,26 @@
+.about-box{
+    width: min(45vw, calc(100% - (2 * var(--side-margin))));
+    padding: clamp(5vw, 4vw, 20vw);
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  .about-box h3{
+    margin-top: 0;
+  }
+  
+  .about-box p{
+    color: #555;
+    line-height: 1.6;
+  }
+
+  .box-1{
+    margin-left: var(--side-margin);
+    margin-top: 10vw;
+  }
+ 
+  .box-2{
+    margin-left: auto;
+    margin-right: var(--side-margin);
+    margin-top: -5vw;
+  }
