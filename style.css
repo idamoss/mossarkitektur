@@ -4,7 +4,10 @@
   main{
     padding-top: 100vh; /* så att innehållet börjar efter hero/header */
   }
-  
+
+body {
+  font-family: "degular", sans-serif;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -85,7 +88,7 @@ html{
     --stretch: 1;
   
     font-size: clamp(2rem, 10vmin, 6rem);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'degular', sans-serif;
     text-transform: uppercase;
     display: grid;
     line-height: 1;

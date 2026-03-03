@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
+  
     const blocks = document.querySelectorAll("[data-include]");
   
     for (const el of blocks) {
